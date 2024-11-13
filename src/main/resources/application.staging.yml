@@ -1,0 +1,16 @@
+# application.staging.yml
+
+# Configurações do banco de dados Postgres para o ambiente de staging
+spring:
+  datasource:
+    url: jdbc:postgresql://<STAGING_DB_HOST>:<PORT>/<DATABASE_NAME>
+    username: <STAGING_DB_USERNAME>
+    password: <STAGING_DB_PASSWORD>
+    driver-class-name: org.postgresql.Driver
+
+  # Configuração do JPA e Hibernate
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update # Atualiza as tabelas se houver mudanças no modelo
+    show-sql: true
