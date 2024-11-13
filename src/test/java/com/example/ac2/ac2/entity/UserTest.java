@@ -24,4 +24,4 @@ public class UserTest {
 	        assertThrows(IllegalArgumentException.class, () -> {
 	            new User_Email("invalid-email");
 	        });
-	    }
+	    }}

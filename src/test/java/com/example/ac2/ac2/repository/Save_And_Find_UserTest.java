@@ -10,7 +10,7 @@ import org.springframework.test.context.ActiveProfiles;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.example.ac2.ac2.entity.User;
-import com.example.ac2.ac2.User_Repository;
+import com.example.ac2.ac2.repository.User_Repository;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
