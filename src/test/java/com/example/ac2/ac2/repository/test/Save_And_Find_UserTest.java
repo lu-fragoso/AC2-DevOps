@@ -13,6 +13,7 @@ import com.example.ac2.ac2.repository.User_Repository;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@ActiveProfiles("test")
 @DataJpaTest
 public class Save_And_Find_UserTest {
 	  @Autowired

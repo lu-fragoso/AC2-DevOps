@@ -4,10 +4,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.test.context.ActiveProfiles;
 
 import com.example.ac2.ac2.entity.User;
 import com.example.ac2.ac2.entity.User_Email;
 
+@ActiveProfiles("test")
 public class UserTest {
 	
 	 @Test

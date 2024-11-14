@@ -15,8 +15,7 @@ import com.example.ac2.ac2.entity.User;
 import com.example.ac2.ac2.entity.User_Email;
 import com.example.ac2.ac2.repository.User_Repository;
 
-
-@SpringBootTest
+@ActiveProfiles("test")
 public class UserRepositoryTest {
 	@Autowired
     private User_Repository userRepository;
