@@ -1,4 +1,4 @@
-package com.example.ac2.ac2.entity;
+package com.example.ac2.ac2.entity.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

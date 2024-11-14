@@ -1,4 +1,4 @@
-package com.example.ac2.ac2.repository;
+package com.example.ac2.ac2.repository.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -15,7 +15,7 @@ import com.example.ac2.ac2.entity.User;
 import com.example.ac2.ac2.entity.User_Email;
 import com.example.ac2.ac2.repository.User_Repository;
 
-@SuppressWarnings("unused")
+
 @SpringBootTest
 public class UserRepositoryTest {
 	@Autowired

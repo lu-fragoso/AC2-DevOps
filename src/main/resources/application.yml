@@ -1,9 +1,0 @@
-# application.yml
-
-spring:
-  profiles:
-    active: test # Define o perfil ativo padrão (para desenvolvimento e testes)
-
-# Alternativamente, para alterar o perfil ativo, você pode configurar o perfil em variáveis de ambiente.
-# Para executar com o perfil staging
-
