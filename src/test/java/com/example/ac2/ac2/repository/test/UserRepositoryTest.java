@@ -11,10 +11,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
+import com.example.ac2.ac2.Ac2Application;
 import com.example.ac2.ac2.entity.User;
 import com.example.ac2.ac2.entity.User_Email;
 import com.example.ac2.ac2.repository.User_Repository;
 
+@SpringBootTest(classes = Ac2Application.class)
 @ActiveProfiles("test")
 public class UserRepositoryTest {
 	@Autowired

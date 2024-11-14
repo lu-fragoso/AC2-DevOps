@@ -10,6 +10,5 @@ class Ac2ApplicationTests {
 
     @Test
     void contextLoads() {
-        // Teste básico para verificar se o contexto carrega
     }
 }

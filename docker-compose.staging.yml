@@ -10,7 +10,7 @@ services:
       - db-volume:/var/lib/postgresql/data
 
   api:
-    image: lu-fragoso/AC2-DevOps
+    image: lufragoso/ac2
     environment:
       SPRING_PROFILES_ACTIVE: staging
       DB_HOST: database
