@@ -1,0 +1,16 @@
+# application.prod.yml
+
+# Configurações do banco de dados Postgres para o ambiente de produção
+spring:
+  datasource:
+    url: jdbc:postgresql://<PROD_DB_HOST>:<PORT>/<DATABASE_NAME>
+    username: <PROD_DB_USERNAME>
+    password: <PROD_DB_PASSWORD>
+    driver-class-name: org.postgresql.Driver
+
+  # Configuração do JPA e Hibernate
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update # Atualiza as tabelas se houver mudanças no modelo
+    show-sql: false # Desativar em produção para desempenho

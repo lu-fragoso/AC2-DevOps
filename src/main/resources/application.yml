@@ -1,0 +1,19 @@
+# application.yml
+
+spring:
+  profiles:
+    active: test # Define o perfil ativo padrão (pode ser 'dev', 'prod', 'test', etc.)
+
+  datasource:
+    url: jdbc:h2:mem:testdb # Exemplo usando H2 para testes; ajuste conforme necessário
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update # ou 'create-drop' para recriar o banco em cada execução no perfil de testes
+    show-sql: true # Mostra as queries SQL no console
+    properties:
+      hibernate:
+        format_sql: true # Formata as queries para melhor visualização no console
